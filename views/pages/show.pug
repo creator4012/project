@@ -1,0 +1,31 @@
+extends ../layouts/main.pug
+block content
+  .home.container-fluid.max-height
+    .row.max-height
+      .col-sm-5.max-height.flexit
+        .divy
+          header.ml-5
+            h1 BOOK STORE
+              br
+              small SHOW PAGE
+              br
+              br
+              br
+      .col-sm-7.max-height.flexit
+        ul.tasks
+          li.card
+            .card-body
+              h5.card-title MENU
+              hr
+              .card-text.mt-3
+                h6
+                  strong 
+
+                ul.ml-2
+                  li
+                    a(href='/') Index
+                  li
+                    a(href='/show') Show
+                  li
+                   a(href='/new') New
+    
